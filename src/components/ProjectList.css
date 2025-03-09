@@ -1,0 +1,19 @@
+.project-list {
+  margin-top: 1rem;
+}
+
+.project-item {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.project-item:hover {
+  background-color: #f8f9fa;
+}
+
+.project-item.active {
+  background-color: #007bff;
+  color: white;
+}

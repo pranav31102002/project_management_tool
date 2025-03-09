@@ -1,0 +1,39 @@
+.navbar-custom {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-link-custom {
+  position: relative;
+  margin: 0 10px;
+  padding: 10px 15px;
+  color: #fff !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link-custom:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  -ms-layout-grid: 1;
+}
