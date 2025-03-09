@@ -32,4 +32,4 @@ Open your browser and navigate to `http://localhost:3000` to view the applicatio
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or features you'd like to add.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the Pranav Bhosale
