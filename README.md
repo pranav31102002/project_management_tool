@@ -1,9 +1,35 @@
-# React + Vite
+# Project Management Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a web application designed to help users manage their projects efficiently. It provides features for creating, updating, and tracking projects, as well as user authentication and collaboration tools.
 
-Currently, two official plugins are available:
+## Features
+- User registration and login
+- Create, update, and delete projects
+- View project details
+- User-friendly interface built with React
+- Fast performance with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# project_management_tool
+## Installation
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone <repository-url>
+cd project-management-tool
+npm install
+```
+
+## Usage
+To run the application in development mode, use the following command:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or features you'd like to add.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
